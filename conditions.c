@@ -8,15 +8,15 @@ int main(void) {
         printf("x is gt than y : %d > %d" , x,y);
 
     }
-    if (x<y) {
+    else if (x<y) {
         printf("x is less than y : %d < %d" , x,y);
 
     }
-    if (x==y) {
+    else if (x==y) {
         printf("x is equal y : %d = %d" , x,y);
 
     }
-    if (x!=y) {
+    else if (x!=y) {
         printf("\nx and y are not equal");
 
     }
