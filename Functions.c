@@ -3,8 +3,10 @@
 int square(int a); //prototype
 
 int main(void){
-
-    for(int x=1;x<=10;x++){
+    int number ;
+    puts("please enter a number :");
+    scanf("%d",&number);
+    for(int x=1;x<=number;x++){
         printf("%d\n",square(x));
     }
 
